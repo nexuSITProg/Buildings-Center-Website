@@ -24,3 +24,9 @@ body {
   background-size: 7px 1px;
   background-repeat: repeat-x;
 }
+
+@media (max-width: 1440px) {
+  body {
+    padding: 0 30px;
+  }
+}
