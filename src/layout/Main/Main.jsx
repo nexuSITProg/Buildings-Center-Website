@@ -1,7 +1,14 @@
+import { MainIntroduce } from './MainIntroduce/MainIntroduce';
+
 import './Main.style.css';
 
 export const Main = () => {
   return (
-    <div>Main</div>
+    <main className='main'>
+      <MainIntroduce 
+        content={'Все новостройки Екатеринбурга'}
+        buttonContent={'Записаться на экскурсию'}
+      />
+    </main>
   )
 }
