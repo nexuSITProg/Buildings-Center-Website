@@ -11,5 +11,7 @@
 
 .header__logo__text {
     width: 110px;
+    font-weight: 900;
+    color: var(--font-active);
     text-transform: uppercase;
 }

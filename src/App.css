@@ -1,19 +1,7 @@
 body {
-  padding: 0 135px;
   color: var(--font-main);
   background-color: var(--main-background);
   font-family: "Montserrat", sans-serif;
-}
-
-.fc-red {
-  color: var(--font-active);
-}
-
-.fw-900 {
-  font-weight: 900;
-}
-
-.fs-14 {
   font-size: 14px;
 }
 
@@ -23,10 +11,4 @@ body {
   background-position: bottom;
   background-size: 7px 1px;
   background-repeat: repeat-x;
-}
-
-@media (max-width: 1440px) {
-  body {
-    padding: 0 30px;
-  }
 }
