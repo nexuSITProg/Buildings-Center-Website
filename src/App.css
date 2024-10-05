@@ -1,3 +1,6 @@
 body {
   padding: 0 135px;
+  color: var(--font-main);
+  background-color: var(--main-background);
+  font-family: "Montserrat", sans-serif;;
 }
