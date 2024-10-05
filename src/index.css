@@ -9,5 +9,8 @@
   --font-active: rgba(220, 63, 63, 1);
   --font-inactive: rgba(168, 168, 168, 1);
 
-  /* Придумаем */
+  /* Backgrounds variables */
+  --main-background: rgba(255, 255, 255, 1);
+  --block-background: rgba(248, 248, 248, 1);
+  --footer-background: rgba(219, 219, 219, 1);
 }
