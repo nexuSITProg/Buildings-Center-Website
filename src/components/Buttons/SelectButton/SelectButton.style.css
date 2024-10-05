@@ -1,0 +1,27 @@
+.select-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    color: var(--font-inactive);
+    border: 1px solid var(--border-inactive);
+    border-radius: 10px;
+}
+
+.select-button.selected {
+    color: var(--font-active);
+    border: 1px solid var(--border-active);
+}
+
+.select-button__text {
+    font-weight: 500;
+}
+
+.select-button__text.selected-text {
+    margin-right: 10px;
+}
+
+.select-button__img {
+    width: 10px;
+    height: 10px;
+}
