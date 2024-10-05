@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Font variables */  
+  --font-main: rgba(34, 34, 34, 1);
+  --font-active: rgba(220, 63, 63, 1);
+  --font-inactive: rgba(168, 168, 168, 1);
+
+  /* Придумаем */
+}
