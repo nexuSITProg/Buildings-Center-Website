@@ -1,0 +1,16 @@
+.button, .button.filled {
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 25px;
+    border: 1px solid var(--button-border);
+}
+
+.button {
+    background-color: var(--button-unfilled-background);
+    color: var(--button-font-unfilled);
+}
+
+.button.filled {
+    background-color: var(--button-filled-background);
+    color: var(--button-font-filled);
+}
