@@ -6,6 +6,8 @@
     color: var(--font-inactive);
     border: 1px solid var(--border-inactive);
     border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
 }
 
 .select-button.selected {

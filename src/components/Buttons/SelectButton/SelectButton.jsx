@@ -9,9 +9,7 @@ export const SelectButton = ({ content }) => {
   const [isSelected, setIsSelected] = useState(false);
 
   const changeIsSelected = () => {
-    console.log('Было: '+isSelected);
     isSelected ? setIsSelected(false) : setIsSelected(true);
-    console.log('Стало: '+isSelected);
   }
 
   return (
