@@ -1,0 +1,11 @@
+.main__apartment-complex__item__slider__wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main__apartment-complex__item__slider__slides-list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}

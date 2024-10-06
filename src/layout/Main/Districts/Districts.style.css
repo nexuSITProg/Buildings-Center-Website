@@ -10,8 +10,8 @@
 
 .main__districts__items {
     width: 80%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 15px;
 }
 

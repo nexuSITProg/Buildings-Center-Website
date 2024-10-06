@@ -1,0 +1,23 @@
+.main__apartment-complex__item__slider__right-controller,
+.main__apartment-complex__item__slider__left-controller {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--button-filled-background);
+    top: 50%;
+    transform: translate(0, -50%); 
+    cursor: pointer;
+}
+
+.main__apartment-complex__item__slider__left-controller {
+    left: -15px;
+    padding-right: 3px;
+}
+
+.main__apartment-complex__item__slider__right-controller {
+    right: -15px;
+}

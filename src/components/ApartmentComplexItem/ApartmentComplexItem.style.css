@@ -1,0 +1,11 @@
+.main__apartment-complex__item {
+    padding: 28px 15px 20px 25px;
+    border-radius: 30px;
+    background-color: var(--block-background);
+}
+
+.main__apartment-complex__item__main-block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}

@@ -1,0 +1,11 @@
+.main__apartment-complex__item__slider__dot {
+    width: 10px;
+    height: 10px;
+    border: 1px solid var(--button-filled-background);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.main__apartment-complex__item__slider__dot.selected {
+    background-color: var(--button-filled-background);
+}

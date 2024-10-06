@@ -56,13 +56,6 @@ export const SelectSlider = () => {
     rangeInputs.forEach(input => {
       input.addEventListener("input", handleInput);
     });
-
-    return () => {
-      // Очищаем слушатели при размонтировании компонента
-      rangeInputs.forEach(input => {
-        input.removeEventListener("input", handleInput);
-      });
-    };
   }, [priceGap]); // Обновляем useEffect, если изменится минимальный разрыв
 
   return (

@@ -1,0 +1,8 @@
+.main__apartment-complex__item__slider__dots {
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}

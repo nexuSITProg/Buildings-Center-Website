@@ -1,0 +1,6 @@
+.main__apartment-complex {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 40px 135px 0;
+}

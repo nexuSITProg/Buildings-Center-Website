@@ -4,6 +4,7 @@ import { HouseType } from './HouseType/HouseType';
 import { SelectBlock } from './SelectBlock/SelectBlock';
 import { HouseClass } from './HouseClass/HouseClass';
 import { Districts } from './Districts/Districts';
+import { ApartmentComplex } from './ApartmentComplex/ApartmentComplex';
 
 import './Main.style.css';
 
@@ -23,6 +24,7 @@ export const Main = () => {
        <HouseClass />
        <Districts />
      </>}
+      <ApartmentComplex />
     </main>
   )
 }
