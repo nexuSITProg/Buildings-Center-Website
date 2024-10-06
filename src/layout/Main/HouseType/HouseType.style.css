@@ -11,3 +11,10 @@
         margin: 40px 30px 0;
     }
 }
+
+@media (max-width: 800px) {
+    .main__house-type {
+        margin: 40px 15px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

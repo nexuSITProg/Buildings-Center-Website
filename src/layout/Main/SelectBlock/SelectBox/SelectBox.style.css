@@ -1,0 +1,15 @@
+.main__select-block__select-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.main__select-block__select-box__boxes {
+    display: flex;
+    gap: 5px;
+}
+
+.main__select-block__select-box__header {
+    font-size: 12px;
+    font-weight: 400;
+}

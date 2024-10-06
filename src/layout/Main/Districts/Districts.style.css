@@ -1,0 +1,22 @@
+.main__districts {
+    margin: 25px 135px 0;
+}
+
+.main__districts__header {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.main__districts__items {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+@media (max-width: 1440px) {
+    .main__districts {
+        margin: 40px 30px 0;
+    }
+}

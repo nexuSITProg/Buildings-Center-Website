@@ -1,0 +1,24 @@
+.main__select-block__select-box__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(с);
+    border-radius: 5px;
+    padding: 8px;
+    min-width: 24px;
+    min-height: 30px;
+    flex-shrink: 0;
+    background-color: var(--block-background);
+    cursor: pointer;
+    user-select: none;
+}
+
+.main__select-block__select-box__item.selected {
+    background-color: var(--button-filled-background);
+    color: var(--button-font-filled);
+}
+
+.main__select-bock__select-box__item__text {
+    font-size: 12px;
+    font-weight: 500;
+}
