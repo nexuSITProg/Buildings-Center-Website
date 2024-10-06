@@ -22,4 +22,8 @@
   --main-background-low-opacity: rgba(255, 255, 255, 0.5);
   --block-background: rgba(248, 248, 248, 1);
   --footer-background: rgba(219, 219, 219, 1);
+
+  /* Border variables */
+  --border-active: rgba(220, 63, 63, 1);
+  --border-inactive: rgba(219, 219, 219, 1);
 }

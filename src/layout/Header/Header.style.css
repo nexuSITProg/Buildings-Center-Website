@@ -10,3 +10,9 @@
         margin: 25px 30px 0;
     }
 }
+
+@media (max-width: 800px) {
+    .header {
+        margin: 20px 15px 0;
+    }
+}
