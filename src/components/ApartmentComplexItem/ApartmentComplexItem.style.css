@@ -9,3 +9,9 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
+
+@media (max-width: 1440px) {
+    .main__apartment-complex__item__main-block {
+        grid-template-columns: 40% 57%;
+    }
+}

@@ -10,7 +10,6 @@ export const SliderContext = createContext();
 export const ApartmentSlider = () => {
   const [items, setItems] = useState([]);
   const [slide, setSlide] = useState(0);
-  const [touchPosition, setTouchPosition] = useState(null);
 
   useEffect(() => {
     const loadData = async () => {
@@ -36,28 +35,9 @@ export const ApartmentSlider = () => {
     setSlide(number % items.length);
   }
 
-  const handleTouchStart = (e) => {
-    const touchDown = e.touches[0].clientX;
-    setTouchPosition(touchDown);
-  }
-
-  const handleTouchMove = (e) => {
-    if (touchPosition === null) return;
-
-    const currentPosition = e.touches[0].clientX;
-    const direction = touchPosition - currentPosition;
-
-    if (direction > 10) changeSlide(1);
-    if (direction < -10) changeSlide(-1);
-
-    setTouchPosition(null);
-  }
-
   return (
     <div 
         className='main__apartment-complex__item__slider'
-        onTouchStart={handleTouchStart}
-        onTouchMove={handleTouchMove}
     >
         <SliderContext.Provider
             value={{

@@ -72,4 +72,8 @@
     .main__main-introduce__blur-block__text {
         font-size: 22px;
     }
+
+    .main__main-introduce .button.filled {
+        width: 240px;
+    }
 }
