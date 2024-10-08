@@ -26,4 +26,5 @@
   /* Border variables */
   --border-active: rgba(220, 63, 63, 1);
   --border-inactive: rgba(219, 219, 219, 1);
+  --border-inactive-darker: rgba(168, 168, 168, 1);
 }
