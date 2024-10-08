@@ -1,0 +1,8 @@
+.apartment-location-text-block__geo-icon {
+    margin-right: 5px;
+}
+
+.apartment-location-text-block__text {
+    padding-bottom: 2px;
+    cursor: pointer;
+}

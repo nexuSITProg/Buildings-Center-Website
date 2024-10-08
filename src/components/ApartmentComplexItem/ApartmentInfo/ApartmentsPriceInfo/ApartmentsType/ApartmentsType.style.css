@@ -1,0 +1,13 @@
+.main__apartment-complex__price-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__apartment-complex__price-info__left {
+    color: var(--font-active);
+}
+
+.main__apartment-complex__price-info__right, .main__apartment-complex__price-info__left {
+    font-weight: 500;
+    cursor: pointer;
+}

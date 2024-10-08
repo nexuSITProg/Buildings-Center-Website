@@ -1,0 +1,4 @@
+.main__apartment-complex__item__main-block__apartment-info {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+}

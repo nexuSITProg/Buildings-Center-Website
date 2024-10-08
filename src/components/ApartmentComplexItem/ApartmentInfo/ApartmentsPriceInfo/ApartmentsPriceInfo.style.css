@@ -1,0 +1,6 @@
+.main__apartment-complex__item__main-block__apartment-info__price-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 30px;
+}

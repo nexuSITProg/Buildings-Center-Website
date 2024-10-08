@@ -1,0 +1,25 @@
+.main__apartment-complex__item__main-block__apartment-info__main-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.apartment-info__main-info__apart-price {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    gap: 15px;
+}
+
+.apartment-info__main-info__header {
+    font-size: 22px;
+    margin-bottom: 8px;    
+}
+
+.apartment-info__main-info__text {
+    padding-bottom: 2px;
+    flex-shrink: 0;
+}
+
+.first-stroke {
+    margin-bottom: 5px;
+}

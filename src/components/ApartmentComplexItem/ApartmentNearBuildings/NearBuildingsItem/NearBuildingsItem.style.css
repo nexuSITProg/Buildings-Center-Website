@@ -1,0 +1,20 @@
+.near-buildings-item {
+    display: flex;
+    gap: 10px;
+    border: 1px solid var(--border-inactive-darker);
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: auto;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+
+.near-buildings-item__img {
+    width: 17px;
+    height: 17px;
+}
+
+.near-buildings-item__text {
+    text-wrap: nowrap;
+    font-weight: 500;
+}
