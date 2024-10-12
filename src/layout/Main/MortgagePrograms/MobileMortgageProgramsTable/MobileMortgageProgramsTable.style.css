@@ -1,0 +1,5 @@
+.mobile-mortgage-programs-table {
+    display: flex;
+    overflow: hidden;
+    gap: 15px;
+}

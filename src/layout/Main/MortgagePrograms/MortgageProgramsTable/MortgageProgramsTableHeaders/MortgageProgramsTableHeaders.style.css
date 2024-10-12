@@ -1,0 +1,8 @@
+.main__mortgage-programs__table__headers {
+    text-align: left;
+}
+
+.main__mortgage-programs__table__headers th {
+    font-weight: 400;
+    color: var(--border-inactive-darker);
+}

@@ -1,0 +1,43 @@
+.mobile-mortgage-programs-table__item {
+    width: 200px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column ;
+    flex-shrink: 0;
+}
+
+.mobile-mortgage-programs-table__item__header{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.mobile-mortgage-programs-table__item__header__img {
+    width: 65px;
+    height: 65px;
+}
+
+.mobile-mortgage-programs-table__header__item__text {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.mobile-mortgage-programs-table__item__main-info, .mobile-mortgage-programs-table__item__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mobile-mortgage-programs-table__item__info__header {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.mobile-mortgage-programs-table__item__info__text {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.mobile-mortgage-programs-table__item .button {
+    width: 135px;
+}

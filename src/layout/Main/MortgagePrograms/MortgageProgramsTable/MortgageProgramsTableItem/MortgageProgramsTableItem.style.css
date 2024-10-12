@@ -1,0 +1,36 @@
+.main__mortgage-programs__table__item {
+    border-bottom: 1px solid var(--border-inactive-darker);
+}
+
+.main__mortgage-programs__table__item:last-child {
+    border: 0;
+}
+
+.main__mortgage-programs__table__item__bank {
+    display: flex;
+    align-items: center;
+}
+
+.main__mortgage-programs__table__item__bank__img {
+    width: 69px;
+    height: 69px;
+    margin-right: 23px;
+}
+
+.main__mortgage-programs__table__item__cell .button {
+    width: 135px;
+}
+
+.main__mortgage-programs__table__item__cell, .main__mortgage-programs__table__item__bank {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.main__mortgage-programs__table__item__cell:last-child {
+    float: right;
+}
+
+.main__mortgage-programs__table__item__cell__text {
+    font-size: 18px;
+    font-weight: 500;
+}

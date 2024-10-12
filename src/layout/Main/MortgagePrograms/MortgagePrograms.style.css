@@ -1,0 +1,62 @@
+.main__mortgage-programs {
+    margin: 0 135px;
+    background-color: var(--block-background);
+    border-radius: 30px;
+    padding: 40px 25px;
+}
+
+.main__mortgage-programs__header-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__mortgage-programs__header-info__header {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.main__mortgage-programs__header-info__text {
+    width: 30%;
+    font-weight: 500;
+}
+
+.main__mortgage-programs .button.filled {
+    width: 155px;
+    margin: 25px auto 0;
+}
+
+@media (max-width: 1440px) {
+    .main__mortgage-programs {
+        margin: 0 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .main__mortgage-programs__header-info {
+        flex-direction: column;
+    }
+
+    .main__mortgage-programs__header-info__header {
+        margin-bottom: 40px;
+    }
+
+    .main__mortgage-programs__header-info__text {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .main__mortgage-programs {
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .main__mortgage-programs__header-info__header {
+        text-align: center;
+    }
+
+    .main__mortgage-programs__header-info__text {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
