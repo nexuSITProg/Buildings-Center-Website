@@ -5,8 +5,12 @@ import { SelectBlock } from './SelectBlock/SelectBlock';
 import { HouseClass } from './HouseClass/HouseClass';
 import { Districts } from './Districts/Districts';
 import { ApartmentComplex } from './ApartmentComplex/ApartmentComplex';
+import { MortgagePrograms } from './MortgagePrograms/MortgagePrograms';
+import { ComplexMap } from './ComplexMap/ComplexMap';
+import { AnswerForm } from './AnswerForm/AnswerForm';
 
 import './Main.style.css';
+import { Feedback } from './Feedback/Feedback';
 
 export const Main = () => {
   const isMobile = useMediaQuery({query: '(max-width:800px)'});
@@ -23,8 +27,12 @@ export const Main = () => {
       <>
        <HouseClass />
        <Districts />
-     </>}
+      </>}
       <ApartmentComplex />
+      <ComplexMap />
+      <MortgagePrograms />
+      <AnswerForm />
+      <Feedback />
     </main>
   )
 }
