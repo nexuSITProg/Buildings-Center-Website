@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/[Buildings-Center-Website]/",
+  base: "/[REPO_NAME]/",
   plugins: [react()],
   resolve: {
     alias: [
