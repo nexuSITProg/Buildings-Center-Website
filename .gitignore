@@ -26,3 +26,10 @@ build
 
 # Test files
 database-complex-variant.txt
+
+# Deploy GH Pages
+### Uncomment when project is ready to be viwed 
+
+.github
+workflows
+*.yml
