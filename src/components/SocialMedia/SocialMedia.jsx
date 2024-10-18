@@ -1,20 +1,24 @@
 import { SocialMediaItem } from './SocialMediaItem/SocialMediaItem';
 
+import vkIcon from '@assets/Social-Media-Icons/vk.svg';
+import waIcon from '@assets/Social-Media-Icons/wa.svg';
+import tgIcon from '@assets/Social-Media-Icons/tg.svg';
+
 import './SocialMedia.style.css';
 
 export const SocialMedia = () => {
   return (
     <div className="social-media">
         <SocialMediaItem 
-            source={'src/assets/Social-Media-Icons/vk.svg'}
+            source={vkIcon}
             name={'vk'}
         />
         <SocialMediaItem 
-            source={'src/assets/Social-Media-Icons/wa.svg'}
+            source={waIcon}
             name={'wa'}
         />
         <SocialMediaItem 
-            source={'src/assets/Social-Media-Icons/tg.svg'}
+            source={tgIcon}
             name={'tg'}
         />
     </div>

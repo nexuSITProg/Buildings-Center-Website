@@ -3,13 +3,15 @@ import { MobileMortgageProgramsTable } from './MobileMortgageProgramsTable/Mobil
 import { MainButton } from '@components/Buttons/MainButton/MainButton';
 import { useMediaQuery } from 'react-responsive';
 
+import bankImg from '@assets/bank-img.png';
+
 import './MortgagePrograms.style.css';
 
 export const MortgagePrograms = () => {
   const isMobile = useMediaQuery({query: '(max-width: 1200px)'});
   const mortgages = [
     {
-      bankImg: 'src/assets/bank-img.png',
+      bankImg: bankImg,
       bankName: 'Абсолют Банк',
       program: 'Строящееся жильё',
       rate: 'от 5.69%',
@@ -18,7 +20,7 @@ export const MortgagePrograms = () => {
       monthPayment: 'от 16 251', 
     },
     {
-      bankImg: 'src/assets/bank-img.png',
+      bankImg: bankImg,
       bankName: 'Абсолют Банк',
       program: 'Строящееся жильё',
       rate: 'от 5.69%',
@@ -27,7 +29,7 @@ export const MortgagePrograms = () => {
       monthPayment: 'от 16 251', 
     },
     {
-      bankImg: 'src/assets/bank-img.png',
+      bankImg: bankImg,
       bankName: 'Абсолют Банк',
       program: 'Строящееся жильё',
       rate: 'от 5.69%',
@@ -36,7 +38,7 @@ export const MortgagePrograms = () => {
       monthPayment: 'от 16 251', 
     },
     {
-      bankImg: 'src/assets/bank-img.png',
+      bankImg: bankImg,
       bankName: 'Абсолют Банк',
       program: 'Строящееся жильё',
       rate: 'от 5.69%',
@@ -45,7 +47,7 @@ export const MortgagePrograms = () => {
       monthPayment: 'от 16 251', 
     },
     {
-      bankImg: 'src/assets/bank-img.png',
+      bankImg: bankImg,
       bankName: 'Абсолют Банк',
       program: 'Строящееся жильё',
       rate: 'от 5.69%',
@@ -54,7 +56,7 @@ export const MortgagePrograms = () => {
       monthPayment: 'от 16 251', 
     },
     {
-      bankImg: 'src/assets/bank-img.png',
+      bankImg: bankImg,
       bankName: 'Абсолют Банк',
       program: 'Строящееся жильё',
       rate: 'от 5.69%',

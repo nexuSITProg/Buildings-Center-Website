@@ -1,5 +1,7 @@
 import { MainButton } from '@components/Buttons/MainButton/MainButton';
 
+import questionSVG from '@assets/question-icon.svg'
+
 import './AnswerForm.style.css';
 
 export const AnswerForm = () => {
@@ -14,7 +16,7 @@ export const AnswerForm = () => {
             />
             <p className='main__answer-form__text'>Нажимая кнопку «Отправить», вы подтверждаете, что согласны на обработку персональных данных.</p>
         </div>
-        <img className='main__answer-form__img' src="src/assets/question-icon.svg" alt="question" />
+        <img className='main__answer-form__img' src={questionSVG} alt="question" />
     </form>
   )
 }

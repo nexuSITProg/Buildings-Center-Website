@@ -1,39 +1,45 @@
 import { NearBuildingsItem } from './NearBuildingsItem/NearBuildingsItem';
 
+import educationSVG from '@assets/NearBuildingsIcons/educations.svg'
+import medicineSVG from '@assets/NearBuildingsIcons/medicine.svg'
+import productsSVG from '@assets/NearBuildingsIcons/products.svg'
+import sportSVG from '@assets/NearBuildingsIcons/sport.svg'
+import funSVG from '@assets/NearBuildingsIcons/fun.svg'
+import parksSVG from '@assets/NearBuildingsIcons/parks.svg'
+
 import './ApartmentNearBuildings.style.css';
 
 export const ApartmentNearBuildings = () => {
-  const path = 'src/assets/NearBuildingsIcons/';
   const nearBuildings = [
     {
         name: 'Продукты',
         count: 6,
-        icon: `${path}products.svg`,
+        icon: productsSVG,
     },
     {
         name: 'Образование',
         count: 6,
-        icon: path + 'educations.svg',
+        icon: educationSVG,
     },
     {
         name: 'Медицина',
         count: 6,
-        icon: path + 'medicine.svg',
+        icon: medicineSVG,
     },
     {
         name: 'Спорт',
         count: 6,
-        icon: path + 'sport.svg',
+        icon: sportSVG,
     },
     {
         name: 'Развлечения',
         count: 6,
-        icon: path + 'fun.svg',
+        icon: funSVG,
     },
     {
         name: 'Парки',
         count: 6,
-        icon: path + 'parks.svg',
+        icon: parksSVG,
     },
   ];
 

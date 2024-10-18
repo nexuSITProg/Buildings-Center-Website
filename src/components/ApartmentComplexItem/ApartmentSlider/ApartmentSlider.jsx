@@ -3,6 +3,10 @@ import { Arrows } from './Arrows/Arrows';
 import { SlidesList } from './SlidesList/SlidesList';
 import { Dots } from './Dots/Dots';
 
+import firstImage from '@assets/ApartmentSliderImages/image1.png';
+import secondImage from '@assets/ApartmentSliderImages/image2.jpg';
+import thirdImage from '@assets/ApartmentSliderImages/image3.png';
+
 import './ApartmentSlider.style.css';
 
 export const SliderContext = createContext();
@@ -13,7 +17,7 @@ export const ApartmentSlider = () => {
 
   useEffect(() => {
     const loadData = async () => {
-        const images = ['src/assets/ApartmentSliderImages/image1.png','src/assets/ApartmentSliderImages/image2.jpg','src/assets/ApartmentSliderImages/image3.png'];
+        const images = [firstImage, secondImage, thirdImage];
         setItems(images);
     };
     loadData();
